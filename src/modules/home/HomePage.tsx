@@ -1,12 +1,11 @@
-import { Button } from "@ui/Button";
-import { Separator } from "@ui/Separator";
+import Layout from "@components/Layout";
 import React from "react";
 
 const HomePage: React.FC = () => {
   return (
-    <div className="p-3">
-      <h1>Hello world</h1>
-    </div>
+    <Layout>
+      <div></div>
+    </Layout>
   );
 };
 export default HomePage;
